@@ -79,3 +79,10 @@ p {
     padding: .25em;
     opacity: 1.2;
 }
+
+@media (min-width: 375px) {
+    .container {
+        margin: 10em auto;
+        max-width: 400px;
+    }
+}
