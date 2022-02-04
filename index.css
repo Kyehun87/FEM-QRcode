@@ -1,0 +1,81 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* global */
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --lightblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+
+    --fs-body: .9rem;
+}
+
+body {
+    font-size: var(--fs-body);
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--lightgray);
+}
+
+img {
+    width: 100%;
+}
+
+/* design system */
+
+.white {
+    color: var(--white);
+}
+
+.lightgrey {
+    color: var(--lightgray);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.darkblue {
+    color: var(--darkblue);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.roundedcorners {
+    border-radius: 5%;
+}
+
+/* The page */
+
+.container {
+    /* background-color: var(--white); */
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-inline: 2em;
+}
+
+.card {
+    padding-inline: 1.25em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background-color: var(--white);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.35rem;
+    padding: .25em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+p {
+    padding: .25em;
+    opacity: 1.2;
+}
